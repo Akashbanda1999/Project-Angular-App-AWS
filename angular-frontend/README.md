@@ -11,6 +11,7 @@ sudo ./aws/install
 ````
 aws configure
 ````
+sudo hostnamectl set-hostname frontend_server
 
 ## Step 1: Install Node.js and npm
 
