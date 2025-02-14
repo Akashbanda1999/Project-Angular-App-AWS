@@ -2,6 +2,7 @@
 
 This guide provides step-by-step instructions for setting up an Angular project from scratch on an Ubuntu machine.
 ### Install AWS CLI 
+sudo hostnamectl set-hostname frontend_server
 ````
 sudo apt install unzip -y
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
@@ -11,7 +12,6 @@ sudo ./aws/install
 ````
 aws configure
 ````
-sudo hostnamectl set-hostname frontend_server
 
 ## Step 1: Install Node.js and npm
 
