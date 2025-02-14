@@ -51,6 +51,7 @@ sudo mysql -h database-1.cxqukacgq5pj.us-east-1.rds.amazonaws.com -u admin -pAdm
 ```
 ```sql
 show databases;
+use springbackend;
 show tables;
 select * from tbl_workers;
 ```
